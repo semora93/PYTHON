@@ -17,11 +17,11 @@ Elige una opción: """
 
 opcion = int(input(menu))
 
-if opcion == "1":
+if opcion == 1:
     conversor("colombianos", 3875)
-elif opcion == "2":
+elif opcion == 2:
     conversor("argentinos", 65)
-elif opcion == "3":
+elif opcion == 3:
     conversor("mexicanos", 24)
 else:
     print("Ingresa una opción correcta por favor")
