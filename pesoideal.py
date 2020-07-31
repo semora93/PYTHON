@@ -5,9 +5,7 @@ Tendremos en cuenta factores como qué día de la semana es, si ya has consumido
 def consumo():
     if consumo_previo == "Sí":
         print("No sigas, no deberías pedir comida chatarra hoy.")
-    else:
-        print("Vale, sigamos con otras preguntas.")
-
+    
 def malestares():
     if malestar == "Sí":
         print("No sigas, no deberías pedir comida chatarra en esas condiciones.")
